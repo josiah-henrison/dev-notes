@@ -9,3 +9,12 @@ find . -type f -exec grep -l "example_string" {} +
 # Steps for development
 
 1. Create developer branch
+
+# Git
+
+```
+git config user.name "josiah-henrison"
+git config user.email "jdeleon.career@gmail.com"
+git config --global user.name ""
+git config --global user.email ""
+```
