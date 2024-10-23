@@ -18,3 +18,8 @@ git config user.email "jdeleon.career@gmail.com"
 git config --global user.name ""
 git config --global user.email ""
 ```
+
+# Daily routine
+
+1. 
+2. Spend the last 10 minutes of work for planning the next day
