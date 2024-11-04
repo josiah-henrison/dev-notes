@@ -17,6 +17,8 @@ git config user.name "josiah-henrison"
 git config user.email "jdeleon.career@gmail.com"
 git config --global user.name ""
 git config --global user.email ""
+# check source history for previous version
+git checkout c20a98c -- src/main/java/com/legalmatch/consumer/service/SuspiciousCaseRestTemplateService.java
 ```
 
 # Daily routine
