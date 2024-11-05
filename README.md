@@ -21,6 +21,15 @@ git config --global user.email ""
 git checkout c20a98c -- src/main/java/com/legalmatch/consumer/service/SuspiciousCaseRestTemplateService.java
 ```
 
+Clean up branches
+
+```
+# Remove references for the non existing remote branches
+git fetch --prune
+# Remove local branches that don't have remote references ("Gone" status)
+git branch -lvv | cut -c3- | awk '/: gone]/ {print $1}' | xargs git branch -d
+```
+
 # Daily routine
 
 1. 
